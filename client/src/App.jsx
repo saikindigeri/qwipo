@@ -7,7 +7,7 @@ import CustomerDetail from './components/CustomerDetail';
 import AddressList from './components/AddressList';
 import AddressForm from './components/AddressForm';
 
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://qwipo-pwzl.onrender.com';
 
 function App() {
   const [allCustomers, setAllCustomers] = useState([]);
